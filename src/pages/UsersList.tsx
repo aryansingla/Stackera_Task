@@ -14,6 +14,7 @@ import {
   IconButton,
   Button,
   Tooltip,
+  Skeleton,
 } from "@mui/material";
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 import { useApiUsers } from "../hooks/useUsers";
@@ -81,13 +82,16 @@ const UsersList: React.FC = () => {
 
   if (isLoading) {
     return (
-      <Box
-        display="flex"
-        justifyContent="center"
-        alignItems="center"
-        height="220px"
-      >
-        <CircularProgress />
+      <Box>
+        {Array.from(new Array(5)).map((_, i) => (
+          <Skeleton
+            key={i}
+            variant="rectangular"
+            width="100%"
+            height={52}
+            sx={{ mb: 1, borderRadius: 1 }}
+          />
+        ))}
       </Box>
     );
   }
