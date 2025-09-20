@@ -158,7 +158,7 @@ const UsersList: React.FC = () => {
             maxHeight: "55vh",
           }}
         >
-          <Table>
+          <Table stickyHeader>
             <TableHead>
               <TableRow sx={{ backgroundColor: "background.paper" }}>
                 <TableCell sx={{ fontWeight: 600 }}>Name</TableCell>
