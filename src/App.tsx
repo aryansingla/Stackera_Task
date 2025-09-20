@@ -1,25 +1,41 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Routes, Route, Link } from "react-router-dom";
+import { Container, AppBar, Toolbar, Typography } from "@mui/material";
+import UsersList from "./pages/UsersList";
+import UserDetail from "./pages/UserDetail";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <AppBar
+        position="static"
+        elevation={2}
+        sx={{ backgroundColor: "#0e0e23" }}
+      >
+        <Toolbar>
+          <Typography
+            variant="h6"
+            component={Link}
+            to="/"
+            sx={{
+              flexGrow: 1,
+              textDecoration: "none",
+              color: "inherit",
+              fontWeight: 600,
+            }}
+          >
+            User Directory
+          </Typography>
+        </Toolbar>
+      </AppBar>
+
+      <Container sx={{ mt: 4 }}>
+        <Routes>
+          <Route path="/" element={<UsersList />} />
+          <Route path="/user/:id" element={<UserDetail />} />
+        </Routes>
+      </Container>
+    </>
   );
 }
 
