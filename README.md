@@ -1,46 +1,41 @@
-# Getting Started with Create React App
+# User Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React + TypeScript based **User Management Dashboard** built with **Material UI**, **Redux Toolkit**, **React Query**, and **React Hook Form**.  
+The app fetches users from a remote API and allows adding custom users with persistence using Redux + Redux Persist.  
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Display users in a **paginated table**
+- **Search** by name or email
+- Add new users with **form validation**
+- View company and city details
+- Modern UI with **Material UI** components
+- **React Query** for API caching & refetching
+- **Redux Toolkit** for state management
+- **Redux Persist** to save custom users across reloads
+- Responsive layout for desktop & mobile
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+- **React 18** with **TypeScript**
+- **Redux Toolkit** + **Redux Persist**
+- **React Query** (TanStack Query)
+- **React Router v6**
+- **Material UI (MUI v5)**
+- **React Hook Form**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Screenshots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img width="957" height="387" alt="task_s4" src="https://github.com/user-attachments/assets/5a78d8da-8f93-40cd-bab0-94e28bcc9410" />
+<img width="870" height="107" alt="task_s3" src="https://github.com/user-attachments/assets/64fdb4b9-ec48-4fb4-a26d-be6ea8f3b834" />
+<img width="935" height="440" alt="task_s2" src="https://github.com/user-attachments/assets/7db09f06-6717-46c5-9b7a-a297b2af773b" />
+<img width="947" height="437" alt="task_s1" src="https://github.com/user-attachments/assets/f839b428-1bef-4b09-b751-0b300ba22692" />
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
