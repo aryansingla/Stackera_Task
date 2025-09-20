@@ -32,10 +32,10 @@ The app fetches users from a remote API and allows adding custom users with pers
 
 ## Screenshots
 
-<img width="957" height="387" alt="task_s4" src="https://github.com/user-attachments/assets/5a78d8da-8f93-40cd-bab0-94e28bcc9410" />
-<img width="870" height="107" alt="task_s3" src="https://github.com/user-attachments/assets/64fdb4b9-ec48-4fb4-a26d-be6ea8f3b834" />
-<img width="935" height="440" alt="task_s2" src="https://github.com/user-attachments/assets/7db09f06-6717-46c5-9b7a-a297b2af773b" />
 <img width="947" height="437" alt="task_s1" src="https://github.com/user-attachments/assets/f839b428-1bef-4b09-b751-0b300ba22692" />
+<img width="935" height="440" alt="task_s2" src="https://github.com/user-attachments/assets/7db09f06-6717-46c5-9b7a-a297b2af773b" />
+<img width="870" height="107" alt="task_s3" src="https://github.com/user-attachments/assets/64fdb4b9-ec48-4fb4-a26d-be6ea8f3b834" />
+<img width="957" height="387" alt="task_s4" src="https://github.com/user-attachments/assets/5a78d8da-8f93-40cd-bab0-94e28bcc9410" />
 
 
 
